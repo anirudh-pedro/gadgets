@@ -1,0 +1,22 @@
+POST http://localhost:3000/add-gadget
+Content-type : application/json
+
+{
+    "name": "Asus ROG Zephyrus G14 (2024)",
+    "brand": "ASUS",
+    "description": "Powerful compact gaming laptop with OLED display.",
+    "features": ["RTX 4070", "AMD Ryzen 9", "120Hz OLED"],
+    "specs": {
+      "display": "14-inch 2.8K OLED",
+      "processor": "AMD Ryzen 9 8945HS",
+      "storageOptions": ["1TB"],
+      "battery": "76Wh",
+      "os": "Windows 11 Home"
+    },
+    "imageUrl": "https://vsprod.vijaysales.com/media/catalog/product/2/3/230488-image1.jpg?optimize=medium&fit=bounds&height=500&width=500",
+    "price": 1899,
+    "category": "Laptop",
+    "releaseDate": "2024-02-01",
+    "rating": 4.8,
+    "inStock": true
+  }
